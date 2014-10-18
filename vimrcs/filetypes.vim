@@ -22,6 +22,10 @@ au FileType python map <buffer> <leader>D ?def
 """"""""""""""""""""""""""""""
 " => JavaScript section
 """""""""""""""""""""""""""""""
+
+" indent and tab stop
+au BufRead,BufNewFile *.js set et ts=2 sw=2
+
 au FileType javascript call JavaScriptFold()
 au FileType javascript setl fen
 au FileType javascript setl nocindent
