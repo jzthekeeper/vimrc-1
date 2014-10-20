@@ -296,6 +296,7 @@ autocmd BufWrite *.coffee :call DeleteTrailingWS()
 " => Ack searching and cope displaying
 "    requires ack.vim - it's much better than vimgrep/grep
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" let g:ackprg = 'ag --nogroup --nocolor --column'
 " When you press gv you Ack after the selected text
 vnoremap <silent> gv :call VisualSelection('gv', '')<CR>
 
