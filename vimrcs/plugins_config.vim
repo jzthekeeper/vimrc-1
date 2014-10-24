@@ -113,3 +113,7 @@ nnoremap <silent> <leader>z :Goyo<cr>
 " => Syntastic (syntax checker)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:syntastic_python_checkers=['pyflakes']
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => javascript-libraries-syntaxs
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:used_javascript_libs = 'jquery,angularjs,jasmine'
