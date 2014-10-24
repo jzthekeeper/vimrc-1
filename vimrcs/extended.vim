@@ -36,7 +36,12 @@ if has("gui_running")
     set background=dark
     colorscheme peaksea
 else
-    colorscheme koehler
+    colorscheme peaksea
+    " Folds color. if I not set it, then I cannot see it using peaksea
+    hi FoldColumn      guifg=#465457 guibg=#000000
+    hi Folded          guifg=#465457 guibg=#000000
+    hi FoldColumn      ctermfg=Blue ctermbg=Black
+    hi Folded          ctermfg=Blue ctermbg=Black
     " let g:colors_name="desert"
 endif
 
