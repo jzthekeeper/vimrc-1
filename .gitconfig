@@ -1,0 +1,31 @@
+# MANAGED BY PUPPET
+# Module:: gitlab
+#
+[user]
+
+[core]
+  editor = vim
+
+[color]
+  ui = true
+  log = auto
+  branch = auto
+  diff = auto
+  status = auto
+
+[alias]
+  br = branch
+  st = status
+  ch = checkout
+  ci = commit
+  sm = submodule
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)an>%Creset' --abbrev-commit --date=relative
+  tree = log --oneline --decorate --graph
+  rmsubmodule = "!f(){ git rm --cached \"$1\";rm -r \"$1\";git config -f .gitmodules --remove-section \"submodule.$1\";git config -f .git/config --remove-section \"submodule.$1\";git add .gitmodules; }; f"
+[push]
+	default = matching
+[gui]
+	recentrepo = 
+[user]
+#   email = jz@agutong.com
+#   name = jz
