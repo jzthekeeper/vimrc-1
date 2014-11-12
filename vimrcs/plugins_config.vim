@@ -116,4 +116,4 @@ let g:syntastic_python_checkers=['pyflakes']
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => javascript-libraries-syntaxs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:used_javascript_libs = 'jquery,angularjs,jasmine'
+let g:used_javascript_libs = 'jquery'
