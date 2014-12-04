@@ -40,8 +40,8 @@ else
     " Folds color. if I not set it, then I cannot see it using peaksea
     hi FoldColumn      guifg=#465457 guibg=#000000
     hi Folded          guifg=#465457 guibg=#000000
-    hi FoldColumn      ctermfg=Blue ctermbg=Black
-    hi Folded          ctermfg=Blue ctermbg=Black
+    hi FoldColumn      ctermfg=White ctermbg=Black
+    hi Folded          ctermfg=White ctermbg=Black
     " let g:colors_name="desert"
 endif
 
