@@ -314,6 +314,10 @@ Vimscript mappings:
     map <leader>n :cn<cr>
     map <leader>p :cp<cr>
 
+### jshint
+Don't forget
+`npm install jshint`
+
 ## Useful blog tips regarding my Vim setup
 
 * [Vim: Annotate strings with gettext (the macro way)](http://amix.dk/blog/post/19678#Vim-Annotate-strings-with-gettext-the-macro-way)
