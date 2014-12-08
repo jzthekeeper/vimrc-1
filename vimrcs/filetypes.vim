@@ -20,6 +20,11 @@ au FileType python map <buffer> <leader>D ?def
 
 
 """"""""""""""""""""""""""""""
+" => CSS Less section
+"""""""""""""""""""""""""""""""
+au BufRead,BufNewFile *.less set et ts=2 sw=2
+au BufRead,BufNewFile *.css set et ts=2 sw=2
+""""""""""""""""""""""""""""""
 " => JavaScript section
 """""""""""""""""""""""""""""""
 
