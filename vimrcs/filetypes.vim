@@ -20,11 +20,18 @@ au FileType python map <buffer> <leader>D ?def
 
 
 """"""""""""""""""""""""""""""
+" => Html section
+"""""""""""""""""""""""""""""""
+
+" indent and tab stop
+au BufRead,BufNewFile *.html set et ts=4 sw=4
+
+""""""""""""""""""""""""""""""
 " => JavaScript section
 """""""""""""""""""""""""""""""
 
 " indent and tab stop
-au BufRead,BufNewFile *.js set et ts=2 sw=2
+au BufRead,BufNewFile *.js set et ts=4 sw=4
 
 au FileType javascript call JavaScriptFold()
 au FileType javascript setl fen
