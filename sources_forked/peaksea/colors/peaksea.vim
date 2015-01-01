@@ -344,24 +344,24 @@ elseif &background=='dark'
 
   if &t_Co==8 || &t_Co==16
     " for 8-color and 16-color term
-    hi Normal		ctermfg=LightGrey   ctermbg=Black
-    hi Special		ctermfg=Yellow	    ctermbg=bg
-    hi Comment		ctermfg=DarkYellow  ctermbg=bg
-    hi Constant		ctermfg=Blue	    ctermbg=bg
-    hi Number		ctermfg=Yellow	    ctermbg=bg
-    hi LineNr		ctermfg=DarkGrey    ctermbg=bg
-    hi PreProc		ctermfg=Green	    ctermbg=bg
-    hi Statement	ctermfg=Cyan	    ctermbg=bg
-    hi Type		ctermfg=Cyan	    ctermbg=bg
-    hi Error		ctermfg=Red	    ctermbg=bg
-    hi Identifier	ctermfg=Magenta     ctermbg=bg
-    hi SpecialKey	ctermfg=Cyan	    ctermbg=bg
-    hi NonText		ctermfg=Blue	    ctermbg=bg
-    hi Directory	ctermfg=Blue	    ctermbg=bg
-    hi MoreMsg		ctermfg=Green	    ctermbg=bg
-    hi Title		ctermfg=Magenta     ctermbg=bg
-    hi WarningMsg	ctermfg=Red	    ctermbg=bg
-    hi DiffDelete	ctermfg=Blue	    ctermbg=bg
+    hi Normal		ctermfg=LightGrey   ctermbg=NONE
+    hi Special		ctermfg=Yellow	    ctermbg=NONE
+    hi Comment		ctermfg=DarkYellow  ctermbg=NONE
+    hi Constant		ctermfg=Blue	    ctermbg=NONE
+    hi Number		ctermfg=Yellow	    ctermbg=NONE
+    hi LineNr		ctermfg=DarkGrey    ctermbg=NONE
+    hi PreProc		ctermfg=Green	    ctermbg=NONE
+    hi Statement	ctermfg=Cyan	    ctermbg=NONE
+    hi Type		ctermfg=Cyan	    ctermbg=NONE
+    hi Error		ctermfg=Red	    ctermbg=NONE
+    hi Identifier	ctermfg=Magenta     ctermbg=NONE
+    hi SpecialKey	ctermfg=Cyan	    ctermbg=NONE
+    hi NonText		ctermfg=Blue	    ctermbg=NONE
+    hi Directory	ctermfg=Blue	    ctermbg=NONE
+    hi MoreMsg		ctermfg=Green	    ctermbg=NONE
+    hi Title		ctermfg=Magenta     ctermbg=NONE
+    hi WarningMsg	ctermfg=Red	    ctermbg=NONE
+    hi DiffDelete	ctermfg=Blue	    ctermbg=NONE
 
     hi Search		ctermfg=NONE	    ctermbg=DarkRed
     hi Visual		ctermfg=Black	    ctermbg=DarkCyan
@@ -393,8 +393,8 @@ elseif &background=='dark'
       hi TabLineFill	ctermfg=fg	ctermbg=Black   	cterm=underline
       hi CursorColumn	ctermfg=NONE	ctermbg=DarkRed
 
-      hi TabLineSel	ctermfg=fg	ctermbg=bg
-      hi CursorLine	ctermfg=NONE	ctermbg=bg		cterm=underline
+      hi TabLineSel	ctermfg=fg	ctermbg=NONE
+      hi CursorLine	ctermfg=NONE	ctermbg=NONE		cterm=underline
 
       hi MatchParen	ctermfg=NONE	ctermbg=DarkMagenta
     endif
