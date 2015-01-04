@@ -26,6 +26,10 @@ au FileType python map <buffer> <leader>D ?def
 " indent and tab stop
 au BufRead,BufNewFile *.html set et ts=4 sw=4
 
+" => CSS Less section
+"""""""""""""""""""""""""""""""
+au BufRead,BufNewFile *.less set et ts=2 sw=2
+au BufRead,BufNewFile *.css set et ts=2 sw=2
 """"""""""""""""""""""""""""""
 " => JavaScript section
 """""""""""""""""""""""""""""""
